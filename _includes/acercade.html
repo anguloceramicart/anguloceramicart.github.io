@@ -1,12 +1,10 @@
-Pagina de acerca de mi
-
 <p>
-    {{ site.data.menu[page.language] }}
-    {% for item in site.data.menu %}
-        <li>
-            <a href="item.en }}">
-                {{ item.es }}
-            </a>
-        </li>
-    {% endfor %}
+    {{ site.data.acercade.titulo[page.language] }}
+</p>
+<p>
+    {{ site.data.acercade.foto[page.language] }}
+</p>
+<p>
+    {{ site.data.acercade.contenido[page.language][0] }}<br>
+    {{ site.data.acercade.contenido[page.language][1] }}
 </p>
