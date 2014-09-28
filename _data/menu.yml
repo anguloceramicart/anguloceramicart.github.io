@@ -31,24 +31,24 @@ paginas:
     fr: /fr/
 
   galeria:
-    es: /es/galeria
-    en: /en/gallery
-    fr: /fr/galerie
+    es: /es/galeria/
+    en: /en/gallery/
+    fr: /fr/galerie/
 
   presupuesto:
-    es: /es/presupuesto
-    en: /en/quotation
-    fr: /fr/devis
+    es: /es/presupuesto/
+    en: /en/quotation/
+    fr: /fr/devis/
 
   blog:
-    es: /es/blog
-    en: /en/blog
-    fr: /fr/blog
+    es: /es/blog/
+    en: /en/blog/
+    fr: /fr/blog/
 
   contacto:
-    es: /es/contacto
-    en: /en/contact
-    fr: /fr/contactez
+    es: /es/contacto/
+    en: /en/contact/
+    fr: /fr/contactez/
 
 mostrar_menu:
   es: Mostar / ocultar menu

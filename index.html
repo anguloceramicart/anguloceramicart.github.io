@@ -4,3 +4,40 @@ language: en
 ---
 
 {% include principal.html %}
+
+{% include parts/bottom_js.html %}
+
+<script>
+    $(function(){
+    $.ajax({
+        url: "http://ajaxhttpheaders.appspot.com",
+        dataType: 'jsonp',
+        success: function(headers) {
+            var language = headers['Accept-Language'];
+
+            language = language.split(',')[0].split('-')[0].toLowerCase();
+
+            var knownLanguages = [];
+
+            {% for idioma in site.data.idiomas %}
+                {% assign name = idioma[0] %}
+                knownLanguages['{{idioma[0]}}'] = {{ site.data.menu.paginas.inicio[name] | prepend: site.baseurl }};
+            {% endfor %}
+
+            var languageRedirect = '/en/';
+
+            for (var i in knownLanguages) {
+                if (language == i) {
+                    languageRedirect = knownLanguages[i];
+                }
+            }
+
+            var redirect = window.location.href.substr(-1) == '/'
+                ? window.location.href.substr(0, -1) + languageRedirect
+                : window.location.href + languageRedirect;
+
+            window.location.replace(redirect);
+        }
+    });
+    });
+</script>
