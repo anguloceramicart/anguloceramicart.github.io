@@ -1,9 +1,13 @@
 # Site settings
-title: Angulo Ceramic Art
-email: info@anguloceramicart.com
+title:       Angulo Ceramic Art
+email:       info@anguloceramicart.com
 description: ~
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.anguloceramicart.com" # the base hostname & protocol for your site
+baseurl:     ''
+url:         http://www.anguloceramicart.com
 
 # Build settings
 markdown: kramdown
+
+# Other settings
+safe: true # Forced by GitHub pages
+lsi: false # Forced by GitHub pages

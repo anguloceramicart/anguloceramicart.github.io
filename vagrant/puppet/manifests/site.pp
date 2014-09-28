@@ -15,25 +15,25 @@ package {
   [
     'build-essential',
     'ruby-dev',
-#    'npm',
+    'npm',
     'nodejs-legacy',
   ]:
-    ensure => 'latest'
+  ensure => 'latest',
 }
 
 exec { 'gem install bundler':
   command => 'sudo gem install bundler',
   creates => '/var/lib/gems/1.9.1/gems/bundler-1.7.3',
-  require => [Package['ruby-dev'], Package['build-essential']]
+  require => [Package['ruby-dev'], Package['build-essential']],
 }
 
 exec { 'bundle install':
-  command => 'bundle install',
   creates => '/var/lib/gems/1.9.1/gems/jekyll-2.4.0',
   cwd     => '/var/www/anguloceramicart',
   require => Exec['gem install bundler'],
 }
 
 exec { 'sudo npm install -g bower':
-  require => Exec['nodejs-legacy'],
+  creates => '/usr/local/bin/bower',
+  require => [Package['npm'], Package['nodejs-legacy']],
 }
