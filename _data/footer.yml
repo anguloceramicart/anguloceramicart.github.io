@@ -46,17 +46,17 @@ direccion:
 
 direccion_texto:
   es: |
-      Rio Beiro, 5
-      29651 Las Lagunas, Mijas
-      España
+      Avenida de Méjico, 4 local
+      29650 Mijas
+      Málaga, España
   en: |
-      5 Rio Beiro
-      29651 Las Lagunas, Mijas
-      Spain
+      4 Avenida de Mejico (Local)
+      29650 Mijas
+      Malaga, Andalusia, Spain
   fr: |
-      Rio Beiro, 5
-      29651 Las Lagunas, Mijas
-      Espagne
+      Avenida de Méjico, 4 local
+      29650 Mijas
+      Malaga, Espagne
 
 correo:
   es: Correo
@@ -75,13 +75,13 @@ telefono:
 
 telefonos:
   es: |
-      (+34) 952 47 29 66
+      (+34) 952 59 04 25
       (+34) 606 41 21 65
   en: |
-      (+34) 952 47 29 66
+      (+34) 952 59 04 25
       (+34) 606 41 21 65
   fr: |
-      (+34) 952 47 29 66
+      (+34) 952 59 04 25
       (+34) 606 41 21 65
 
 redes_sociales:
@@ -89,7 +89,7 @@ redes_sociales:
   en: Social networks
   fr:
 
-diseño:
+diseno:
   es: 'Diseño:'
   en: 'Design:'
   fr: ':'
