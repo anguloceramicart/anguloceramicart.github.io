@@ -1,5 +1,63 @@
-<footer class="site-footer">
-
-
-
+<footer>
+    <div id="footer" class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>{{ site.data.footer.el_artista[page.language] }}</h2>
+                <img src="{{ "/img/footer/me.png" | prepend: site.baseurl }}" align="left" class="img-responsive img-circle" alt="Jose Angulo">
+                <p>
+                    {% for item in site.data.footer.el_artista_texto[page.language] %}
+                        {{ item }}<br>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Angulo Ceramic Art</h2>
+                <p>XXX AQUI VA EL MAPA</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>{{ site.data.footer.direccion[page.language] }}</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <p>{{ site.data.footer.direccion_texto[page.language] | newline_to_br }}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>{{ site.data.footer.correo[page.language] }}</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <p>{{ site.data.footer.correo_texto[page.language] }}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>{{ site.data.footer.telefono[page.language] }}</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <p>{{ site.data.footer.telefonos[page.language] | newline_to_br }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>{{ site.data.footer.redes_sociales[page.language] }}</h2>
+                XXX AQUI VAN LOS ENLACES
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+                <div class="row copyright">
+                    <div class="col-md-4 text-left">
+                        &copy; Angulo Ceramic Art
+                    </div>
+                    <div class="col-md-4 text-center">
+                        {{ site.data.footer.diseño[page.language] }}
+                        <a href="https://www.facebook.com/rodrigoangulomartin">Rodrigo Angulo Martin</a>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        London 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>

@@ -5,6 +5,7 @@
     {{ site.data.acercade.foto[page.language] }}
 </p>
 <p>
-    {{ site.data.acercade.contenido[page.language][0] }}<br>
-    {{ site.data.acercade.contenido[page.language][1] }}
+    {% for item in site.data.acercade.contenido[page.language] %}
+        {{ item }}<br>
+    {% endfor %}
 </p>

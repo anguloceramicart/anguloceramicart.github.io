@@ -1,0 +1,76 @@
+carrusel:
+  -
+    imagen: /img/principal/slide1.png
+    texto:
+        es: Plaza
+        en: Roundabout
+        fr:
+  -
+    imagen: /img/principal/slide2.png
+    texto:
+        es: Ganado
+        en: Stock
+        fr:
+  -
+    imagen: /img/principal/slide3.png
+    texto:
+        es: Uvas
+        en: Grapes
+        fr:
+  -
+    imagen: /img/principal/slide4.png
+    texto:
+        es: Barco
+        en: Ship
+        fr:
+
+bienvenidos:
+  es: Bienvenidos
+  en: Welcome
+  fr:
+
+galeria:
+  es: Galería de fotos
+  en: Picture gallery
+  fr:
+
+galeria_texto:
+  es: >
+      En esta sección encontrarás una gran variedad de obras que he realizado. He seleccionado las más significativas y
+      las he dividido para que te sea más sencillo disfrutar de ellas.
+  en: >
+      In this section you will find a wide variety of work that I have done. I have selected the most significative and
+      I have divided them so is easier for you to enjoy them.
+  fr:
+
+presupuesto:
+  es: Presupuesto
+  en: Quotation
+  fr:
+
+presupuesto_texto:
+  es: >
+      Podrás diseñar un presupuesto a tu medida y rápidamente recibir una aproximación. Todo depende del tipo de azulejo
+      que elijas y el tamaño del mural.
+  en: >
+      You will be able to draft your own quotation and quickly get an approximate price. It is all up to the type of
+      tile and the size of the mural.
+  fr:
+
+contacto:
+  es: Contacto
+  en: Contact
+  fr:
+
+contacto_texto:
+  es: >
+      Por teléfono, desde la web o con un correo, siempre puedes ponerte en contacto conmigo. Estoy también disponible
+      en una gran variedad de Redes Sociales.
+  en: >
+      By phone, from the website or via email, you can always get in touch. I am also available in many social networks.
+  fr:
+
+descubre_mas:
+  es: Descubre más
+  en: Find out more
+  fr:
