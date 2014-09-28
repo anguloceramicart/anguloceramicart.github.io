@@ -32,19 +32,19 @@
                 <img src="{{ "/img/principal/principal1.png" | prepend: site.baseurl }}" class="img-responsive">
                 <h2>{{ site.data.principal.galeria[page.language] }}</h2>
                 <p>{{ site.data.principal.galeria_texto[page.language] }}</p>
-                <p><a class="btn btn-default" href="#" role="button">{{ site.data.principal.descubre_mas[page.language] }}</a></p>
+                <p><a class="btn btn-default" href="{{ "site.data.menu.paginas.galeria[page.language] | prepend: site.baseurl }}" role="button">{{ site.data.principal.descubre_mas[page.language] }}</a></p>
             </div>
             <div class="col-md-4">
                 <img src="{{ "/img/principal/principal2.png" | prepend: site.baseurl }}" class="img-responsive">
                 <h2>{{ site.data.principal.presupuesto[page.language] }}</h2>
                 <p>{{ site.data.principal.presupuesto_texto[page.language] }}</p>
-                <p><a class="btn btn-default" href="#" role="button">{{ site.data.principal.descubre_mas[page.language] }}</a></p>
+                <p><a class="btn btn-default" href="{{ "site.data.menu.paginas.presupuesto[page.language] | prepend: site.baseurl }}" role="button">{{ site.data.principal.descubre_mas[page.language] }}</a></p>
             </div>
             <div class="col-md-4">
                 <img src="{{ "/img/principal/principal3.png" | prepend: site.baseurl }}" class="img-responsive">
                 <h2>{{ site.data.principal.contacto[page.language] }}</h2>
                 <p>{{ site.data.principal.contacto_texto[page.language] }}</p>
-                <p><a class="btn btn-default" href="#" role="button">{{ site.data.principal.descubre_mas[page.language] }}</a></p>
+                <p><a class="btn btn-default" href="{{ "site.data.menu.paginas.contacto[page.language] | prepend: site.baseurl }}" role="button">{{ site.data.principal.descubre_mas[page.language] }}</a></p>
             </div>
         </div>
     </div>
