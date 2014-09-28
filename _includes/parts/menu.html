@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">{{ site.data.menu.mostrar_menu[page.language] }}</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse nav-justified" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                {% for item in site.data.menu.nombres %}
+                    {% assign name = item[0] %}
+                    {% assign url = site.data.menu.paginas[name][page.language] %}
+                    <li{% if page.permalink == url %} class="active"{% endif %}><a href="{{ url | prepend: site.baseurl }}">{{ item[1][page.language] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

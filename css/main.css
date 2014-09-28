@@ -1,4 +1,4 @@
-#principal .cabecera {
+#cabecera {
     max-width: 600px;
 }
 
@@ -102,3 +102,13 @@ ul.social li a.fa-linkedin			{ background: #006599; }
 ul.social li a.fa-linkedin:hover	{ background: #1075a9; }
 ul.social li a.fa-google-plus		{ background: #da2713; }
 ul.social li a.fa-google-plus:hover	{ background: #ea3723; }
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}

@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
-    {% include head.html %}
+    {% include parts/head.html %}
     <body>
-        {% include header.html %}
+        {% include parts/header.html %}
+
+        <div id="cabecera" class="container">
+            <div class="center-block">
+                <div class="text-right">
+                    {% for idioma in site.data.idiomas %}
+                    <a href="{{ site.baseurl }}/{{ idioma[0] }}/">{{ idioma[1] }}</a>
+                    {% if forloop.last == false %}
+                    |
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <div>
+                    <a href="{{ site.baseurl }}/{{ page.language }}/">
+                        <img src="{{ "/img/principal/angulo_ceramic_art.png" | prepend: site.baseurl }}" class="img-responsive" alt="{{ site.title }}">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        {% include parts/menu.html %}
+
         {{ content }}
-        {% include footer.html %}
-        {% include bottom_js.html %}
+
+        {% include parts/footer.html %}
+        {% include parts/bottom_js.html %}
     </body>
 </html>

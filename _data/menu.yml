@@ -1,24 +1,56 @@
-inicio:
-  es: Inicio
-  en: Home
-  fr: Page d'accueil
+nombres:
+  inicio:
+    es: Inicio
+    en: Home
+    fr: Page d'accueil
 
-galeria:
-  es: Galeria
-  en: Gallery
-  fr: Galerie
+  galeria:
+    es: Galeria
+    en: Gallery
+    fr: Galerie
 
-presupuesto:
-  es: Presupusto
-  en: Quotation
-  fr: Devis
+  presupuesto:
+    es: Presupuesto
+    en: Quotation
+    fr: Devis
 
-blog:
-  es: Blog
-  en: Blog
-  fr: Blog
+  blog:
+    es: Blog
+    en: Blog
+    fr: Blog
 
-contacto:
-  es: Contacto
-  en: Contact
-  fr: Contactez
+  contacto:
+    es: Contacto
+    en: Contact
+    fr: Contactez
+
+paginas:
+  inicio:
+    es: /es/
+    en: /en/
+    fr: /fr/
+
+  galeria:
+    es: /es/galeria
+    en: /en/gallery
+    fr: /fr/galerie
+
+  presupuesto:
+    es: /es/presupuesto
+    en: /en/quotation
+    fr: /fr/devis
+
+  blog:
+    es: /es/blog
+    en: /en/blog
+    fr: /fr/blog
+
+  contacto:
+    es: /es/contacto
+    en: /en/contact
+    fr: /fr/contactez
+
+mostrar_menu:
+  es: Mostar / ocultar menu
+  en: Toggle navigation
+  fr:
