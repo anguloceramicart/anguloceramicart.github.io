@@ -112,3 +112,7 @@ ul.social li a.fa-google-plus:hover	{ background: #ea3723; }
   float: none;
   display: inline-block;
 }
+
+#contenido {
+    padding-bottom: 20px;
+}
