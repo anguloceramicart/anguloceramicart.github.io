@@ -1,0 +1,24 @@
+inicio:
+  es: Inicio
+  en: Home
+  fr: Page d'accueil
+
+galeria:
+  es: Galeria
+  en: Gallery
+  fr: Galerie
+
+presupuesto:
+  es: Presupusto
+  en: Quotation
+  fr: Devis
+
+blog:
+  es: Blog
+  en: Blog
+  fr: Blog
+
+contacto:
+  es: Contacto
+  en: Contact
+  fr: Contactez

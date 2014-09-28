@@ -1,0 +1,12 @@
+Pagina de acerca de mi
+
+<p>
+    {{ site.data.menu[page.language] }}
+    {% for item in site.data.menu %}
+        <li>
+            <a href="item.en }}">
+                {{ item.es }}
+            </a>
+        </li>
+    {% endfor %}
+</p>

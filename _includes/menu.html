@@ -1,0 +1,5 @@
+<ul>
+    {% for menuItem in site.data.menu %}
+        <li>{{ menuItem[1][page.language] }}</li>
+    {% endfor %}
+</ul>
