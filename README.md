@@ -4,7 +4,7 @@
 
 En el ordenador anfitrión, asegurate de que las siguientes dependencias estén instaladas:
  - [Vagrant]
- - Un cliente Git, por ejemplo [TortoiseGit] o [GitHub][GitHub-Windows] en Windows o [GitHub][GitHub-Mac] en Mac
+ - Un cliente Git, por ejemplo [TortoiseGit] o [GitHub][GitHub-Windows] en Windows o [GitHub][GitHub-Mac] o [SourceTree] en Mac
  - Un cliente SSH, por ejemplo [PuTTY] en Windows o el comando `ssh` en Mac [+Info][SSH-Mac]
 
 Usando tu cliente Git, haz un clon de este repositorio en tu carpeta del projecto, por ejemplo para clonar el 
@@ -47,3 +47,4 @@ normal.
 [GitHub-Mac]:     https://mac.github.com
 [PuTTY]:          http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 [SSH-Mac]:        http://accc.uic.edu/answer/how-do-i-use-ssh-and-sftp-mac-os-x
+[SourceTree]:     http://www.sourcetreeapp.com/
