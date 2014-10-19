@@ -20,7 +20,7 @@ ejemplo:
 En la consola, enciende la máquina virtual escribiendo:
 
     cd vagrant/
-    vagrant up
+    sudo vagrant up
 
 Agrega la siguiente li
 Add a line to the hosts' hosts file:
