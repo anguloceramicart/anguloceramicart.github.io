@@ -36,6 +36,27 @@ footer {
     color: #b3b3b3;
 }
 
+@media (min-width: 768px) {
+    footer {
+        background-color: #f00;
+        color: fuchsia;
+    }
+}
+
+@media (min-width: 991px) {
+    footer {
+        background-color: #ff0;
+        color: blue;
+    }
+}
+
+@media (min-width: 1199px) {
+    footer {
+        background-color: #0ff;
+        color: brown;
+    }
+}
+
 #footer h1,
 #footer h2,
 #footer h3,
