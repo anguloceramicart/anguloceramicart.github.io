@@ -3,9 +3,7 @@
 ## Instalación de la página para desarrollo
 
 En el ordenador anfitrión, asegurate de que las siguientes dependencias estén instaladas:
- - [Vagrant]
  - Un cliente Git, por ejemplo [TortoiseGit] o [GitHub][GitHub-Windows] en Windows o [GitHub][GitHub-Mac] o [SourceTree] en Mac
- - Un cliente SSH, por ejemplo [PuTTY] en Windows o el comando `ssh` en Mac [+Info][SSH-Mac]
 
 Usando tu cliente Git, haz un clon de este repositorio en tu carpeta del projecto, por ejemplo para clonar el 
 repositorio desde la linea de comandos usando la carpeta `/proyectos/anguloceramicart/` harías:
@@ -17,26 +15,15 @@ ejemplo:
 
     cd /proyectos/anguloceramicart/
 
-En la consola, enciende la máquina virtual escribiendo:
-
-    cd vagrant/
-    sudo vagrant up
-
 Agrega la siguiente li
 Add a line to the hosts' hosts file:
 
     127.0.0.1 anguloceramicart.local
 
-Finalmente, abre una consola SSH con los siguientes datos:
- - Host: `anguloceramicart.local`
- - Puerto: `2222`
- - Usuario: `vagrant` 
- - Contraseña: `vagrant`
+Una vez dentro de la consola, arranca el servidor web escribiendo en la consola:
 
-Una vez dentro de la consola, arranca el servidor web escribiendo en la consola SSH:
-
-    cd /var/www/anguloceramicart
-    jekyll serve --watch --force_polling
+    cd /Users/Rodri/Documents/Páginas\ Web/anguloceramicart
+    jekyll serve --watch
 
 La página web estará accesible en http://anguloceramicart.local:4000/ desde el ordenador anfitrión, usando un explorador
 normal.
